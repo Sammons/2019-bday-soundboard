@@ -58,10 +58,18 @@ blockquote {
     border: 1px solid black;
     margin: 0px;
     padding: 0px;
-    background-color: grey;
+    /* background-color: grey; */
     width: 74px;
     height: 74px;
     text-align: center;
+}
+
+.container td:nth-child(2n) {
+    background-color: lightblue;
+}
+
+.container td:nth-child(2n-1) {
+    background-color: lightpink;
 }
 
 .container td:hover {
